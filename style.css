@@ -1,0 +1,139 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+section{
+    background-image: url(5.1\ header.jpg.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 3%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 39, 39);
+}
+h5{
+    margin: 7px;
+    color: white;
+    font-family: sans-serif;
+}
+p{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+}
+h6{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+}
+.cen{
+    background-color: rgb(11, 11, 36);
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    justify-content: center;
+    flex-direction: column;
+}
+.cen .seperate{
+    color: white;
+    line-height: 3%;
+}
+h4{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.cone{
+    background-color: black;
+    padding-top: 3%;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.skip{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-style: italic;
+}
+.brush{
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 12%; */
+    align-items: center;
+}
+.mine{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.seperate{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.together{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+}
+.chain{
+    color: #fff;
+    font-family: sans-serif;
+}
+h3{
+    color: #fff;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+i{
+    color: #fff;
+    margin: 1%;
+    font-family: sans-serif;
+    font-family: sans-serif;
+}
+@media screen and(max-width:400px) {
+    section{
+        width: 30%;
+        height: 50vh;
+    }
+    nav{
+        height: 30px;
+    }
+}
